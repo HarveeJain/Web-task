@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center; /* Aligns logo and button on the same line */
+    justify-content: space-between; /* Pushes logo-container left & button right */
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column; /* Stacks logo and "Ideas" vertically */
+    align-items: flex-start; /* Aligns them to the left */
+}
+
+.logo img {
+    width: 80px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 5px; /* Adds spacing below the logo */
+}
+
+.contact-button {
+    background-color: yellowgreen;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+/* Articles Section */
+.articles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 170px;
+}
+
+article {
+    width: 30%;
+    background-color: #111;
+    padding: 20px;
+    border: 1px solid gray; /* Adds gray border around each article */
+}
+
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.date {
+    margin-top: 150px;
+    color: gray;
+    font-size: 12px;
+}
+
+/* Footer Styling */
+/* Footer Styling */
+footer {
+    background-color: black;
+    padding: 50px 60px;
+    color: white;
+}
+
+/* Footer Container - Flexbox for two sections */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Left Section - Logo and Subscription */
+.footer-left {
+    width: 50%;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* "Fuel for Thought" Section */
+.subscribe-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subscribe-section p {
+    font-size: 14px;
+    color: lightgray;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe-section label {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.subscribe-section input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.subscribe-section input:focus {
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.subscribe-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Right Section - Navigation and Socials */
+.footer-right {
+    width: 40%;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.footer-nav li {
+    border: 1px solid gray;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* Privacy Policy */
+.privacy-policy {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.privacy-policy a {
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
